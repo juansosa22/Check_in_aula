@@ -29,7 +29,7 @@ java -cp out edu.cerp.checkin.App --gui
 
 Al hacerlo, se abrirá una ventana con un formulario simple para registrar inscripciones y ver la lista de registros.
 
-📦 Estructura del proyecto
+Estructura del proyecto
 src/
 └─ edu/cerp/checkin/
 ├─ model/
