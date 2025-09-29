@@ -1,0 +1,27 @@
+# Archivos compilados de Java
+bin/
+out/
+*.class
+
+# Archivos temporales del IDE
+*.iml
+*.idea/
+*.vscode/
+
+# Archivos de log
+*.log
+
+# Archivos empaquetados
+*.jar
+*.war
+*.zip
+*.rar
+
+# Crash logs de Java
+hs_err_*.log
+replay_*.log
+
+# Otros archivos innecesarios
+.DS_Store
+Thumbs.db
+
