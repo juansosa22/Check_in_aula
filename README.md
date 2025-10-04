@@ -55,3 +55,20 @@ Autor
 Entrega individual – Check-in Aula
 
 Resumen: Este proyecto presenta un sistema para registrar inscripciones al inicio de clases. Permite añadir alumnos con su nombre, documento y curso, y guarda automáticamente la hora de inscripción. Puedes listar todas las inscripciones, buscar por nombre o documento, y obtener un resumen por curso con la cantidad de alumnos inscritos. Funciona a través de una consola con un menú interactivo, y también cuenta con una interfaz gráfica mínima, donde puedes completar un formulario y ver la lista de registros. Incluye datos de prueba precargados para que puedas ver cómo funciona desde el inicio. Todo esto se gestiona en memoria, sin necesidad de guardar archivos ni bases de datos, mostrando solo la información en el momento de ejecución.
+
+# Check-in Aula (Registro de Inscripciones)
+
+Este proyecto implementa un registro simple de inscripciones al inicio de clase, con una lógica de negocio en memoria y dos interfaces de usuario: Consola (por defecto) y Gráfica (GUI) activada con el argumento `--gui`.
+
+---
+
+## Compilación y Ejecución
+
+El proyecto sigue la estructura estándar de paquetes y se compila usando `javac`.
+
+### 1. Compilación
+
+Ejecute este comando desde la raíz del proyecto (donde se encuentra la carpeta `src`):
+
+```bash
+javac -d out $(find src -name "*.java")
