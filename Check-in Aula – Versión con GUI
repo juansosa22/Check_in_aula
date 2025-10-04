@@ -1,1 +1,8 @@
+# Check-in Aula
+
+Registro simple de inscripciones.
+
+## Compilar
+```bash
+javac -d out $(find src -name "*.java")
 
